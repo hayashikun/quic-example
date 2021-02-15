@@ -1,5 +1,5 @@
 [package]
-name = "quic-example"
+name = "quic-example-server"
 version = "0.1.0"
 authors = ["Ryosuke Hayashi <hayashi@hayashikun.com>"]
 edition = "2018"

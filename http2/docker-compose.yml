@@ -1,0 +1,10 @@
+version: '3'
+services:
+  nginx:
+    build: .
+    ports:
+      - "443:443"
+  app:
+    build: ../server/Dockerfile
+    environment:
+      - VIRTUAL_HOST=app
