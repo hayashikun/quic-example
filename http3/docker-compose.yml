@@ -4,6 +4,7 @@ services:
     build: .
     ports:
       - "443:443"
+      - "443:443/udp"
   app:
     build: ../server
     environment:
